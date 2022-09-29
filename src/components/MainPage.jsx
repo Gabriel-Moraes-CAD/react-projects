@@ -32,9 +32,15 @@ function MainPage() {
         <Container>
           <Navbar.Brand href="#home">Gabriel Moraes</Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link href="https://gabriel-moraes-cad.github.io/Gabriel-Moraes/html/index.html">
+              Home
+            </Nav.Link>
+            <Nav.Link href="https://gabriel-moraes-cad.github.io/Gabriel-Moraes/html/index.html#project">
+              Projects
+            </Nav.Link>
+            <Nav.Link href="https://gabriel-moraes-cad.github.io/Gabriel-Moraes/html/index.html#contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

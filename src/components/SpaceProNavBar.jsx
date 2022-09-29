@@ -10,12 +10,12 @@ function SpaceProNavBar() {
     <div>
       <Navbar bg="dark" variant="dark" className="nav-bar">
         <Container>
-          <Navbar.Brand href="/spacepromain/">
+          <Navbar.Brand href="/nasa-pro/#/spacepromain">
             {" "}
             <ImRocket /> Space Explorer{" "}
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="/">
+            <Nav.Link href="/nasa-pro">
               Main page <RiArrowGoBackLine />
             </Nav.Link>
           </Nav>

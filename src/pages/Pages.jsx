@@ -8,7 +8,7 @@ import SpaceProSpaceGDetails from "../components/SpaceProSpaceGDetails";
 function Pages() {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route path="/nasa-pro" element={<MainPage />} />
       <Route path="/spaceProMain" element={<SpaceProMain />} />
       <Route
         path="/spaceprospacegdetails/:image"
