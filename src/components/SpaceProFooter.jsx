@@ -37,8 +37,8 @@ function SpaceProFooter() {
             </Col>
             <p>
               This project is not affiliated with NASA. All images displayed on
-              this project is NASA copyrighted. I created this page for
-              educational/personal purpose only
+              this project are copyrighted by NASA. I created this page for
+              educational/personal purposes only
             </p>
           </Row>
         </Row>

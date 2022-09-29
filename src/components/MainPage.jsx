@@ -155,13 +155,14 @@ function MainPage() {
           <Col lg md="12" className="text-light ">
             <h1>Space Explorer Project </h1>
             <p>
-              This project was built based on NASA APIs. I used 2 different APIs
-              for this project. In the first section of the project's page,
-              you'll have the ability to search for a picture based on a start
-              date and an end date. One of the challenges in building this
-              section was that the APOD API provides pictures that are copyright
-              protected so I had to filter them out by using mapping and
-              filtering techniques.
+              This project was built based on 2 different NASA APIs. In the
+              first section of the project's page, you'll have the ability to
+              search for a picture based on a start date and an end date.
+            </p>
+            <p>
+              One of the challenges in building this section was that the APOD
+              API provides pictures that are copyright protected so I had to
+              filter them out by using mapping and filtering techniques.
             </p>
             <p>
               The second section of my project uses the NASA Image and Video
@@ -172,25 +173,28 @@ function MainPage() {
               by clicking on the picture of your choice. Note that this project
               uses a "DEMO_KEY" so the number of API calls is very limited,
               about 30 calls per hour to a maximum of 50 calls per day per IP
-              address. This project outlines my skills using APIs, mapping and
-              filtering techniques, conditional rendering, useState, useEffect,
-              Params, React Router, CSS Bootstrap framework, and use of local
-              storage.
-              <p>
-                If you wish to see the code for this project, please it{" "}
-                <a
-                  className="text-light fw-bold text-decoration-underline"
-                  href="https://github.com/Gabriel-Moraes-CAD?tab=repositories"
-                  target="_blank"
-                >
-                  HERE
-                </a>
-                .
-              </p>
-              <p>
-                This project is not affiliated with NASA. All images displayed
-                on this project is NASA copyrighted.
-              </p>
+              address. If you're having trouble having your selected dates
+              render, this could be a reason.
+            </p>
+            <p>
+              This project outlines my skills using APIs, mapping and filtering
+              techniques, conditional rendering, useState, useEffect, Params,
+              React Router, CSS Bootstrap framework, and use of local storage.
+            </p>
+            <p>
+              If you wish to see the code for this project, please{" "}
+              <a
+                className="text-light fw-bold text-decoration-underline"
+                href="https://github.com/Gabriel-Moraes-CAD?tab=repositories"
+                target="_blank"
+              >
+                HERE
+              </a>
+              .
+            </p>
+            <p>
+              This project is not affiliated with NASA. All images displayed on
+              this project is copyrighted by NASA.
             </p>
           </Col>
 
