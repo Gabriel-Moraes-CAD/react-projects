@@ -185,7 +185,7 @@ function MainPage() {
               If you wish to see the code for this project, please{" "}
               <a
                 className="text-light fw-bold text-decoration-underline"
-                href="https://github.com/Gabriel-Moraes-CAD?tab=repositories"
+                href="https://github.com/Gabriel-Moraes-CAD/react-projects.git"
                 target="_blank"
               >
                 HERE
@@ -194,7 +194,7 @@ function MainPage() {
             </p>
             <p>
               This project is not affiliated with NASA. All images displayed on
-              this project is copyrighted by NASA.
+              this project are copyrighted by NASA.
             </p>
           </Col>
 
