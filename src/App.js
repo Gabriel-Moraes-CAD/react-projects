@@ -1,4 +1,4 @@
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import Pages from "./pages/Pages";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,11 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         
         <Pages/>
     
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

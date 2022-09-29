@@ -26,7 +26,7 @@ import { Link } from "react-router-dom";
 
 function MainPage() {
   return (
-    // Nav Bar
+    // Nav Barr
     <div className="bg-dark">
       <Navbar bg="dark" variant="dark">
         <Container>

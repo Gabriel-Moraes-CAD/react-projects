@@ -11,7 +11,7 @@ function SpaceProSpaceGDetails() {
   const [details, setDetails] = useState({});
   let params = useParams();
 
-  // Api call with params
+  // Api call with paramss
   const fetchDetails = async () => {
     const data = await fetch(
       `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${params.image}&concept_tags=True`

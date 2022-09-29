@@ -9,7 +9,7 @@ import { AiOutlineCopyright } from "react-icons/ai";
 import imageError from "../images/error-pic.jpg";
 
 function SpaceProSpaceG() {
-  // Space Image State
+  // Space Image Statee
   const [data, setData] = useState([[]]);
   const [startDate, setStartDate] = useState("2022-03-02");
   const [endDate, setEndDate] = useState("2022-03-11");
