@@ -10,12 +10,12 @@ function SpaceProNavBar() {
     <div>
       <Navbar bg="dark" variant="dark" className="nav-bar">
         <Container>
-          <Navbar.Brand href="/nasa-pro/#/spacepromain">
+          <Navbar.Brand href="/react-projects/#/spacepromain">
             {" "}
             <ImRocket /> Space Explorer{" "}
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="/nasa-pro">
+            <Nav.Link href="/react-projects">
               Main page <RiArrowGoBackLine />
             </Nav.Link>
           </Nav>
