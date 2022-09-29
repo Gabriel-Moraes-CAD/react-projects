@@ -257,6 +257,7 @@ function MainPage() {
           <Row>
             <Col className="text-light text-center pt-5">
               <h4>Gabriel Moraes - Front End Developer</h4>
+              <p> &copy; 2022 Gabriel Moraes. All rights reserved.</p>
             </Col>
             <Row>
               <Col className="d-flex justify-content-center p-2 mb-5">

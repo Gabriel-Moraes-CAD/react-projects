@@ -39,6 +39,7 @@ function SpaceProFooter() {
               This project is not affiliated with NASA. All images displayed on
               this project are copyrighted by NASA. I created this page for
               educational/personal purposes only
+              <p>&copy; 2022 Gabriel Moraes. All rights reserved.</p>
             </p>
           </Row>
         </Row>
