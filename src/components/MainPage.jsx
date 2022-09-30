@@ -25,11 +25,11 @@ import { SiStyledcomponents, SiAdobecreativecloud } from "react-icons/si";
 import { Link } from "react-router-dom";
 import ReactGa from "react-ga";
 
-useEffect(() => {
-  ReactGa.preview(window.location.pathname);
-}, []);
-
 function MainPage() {
+  useEffect(() => {
+    ReactGa.preview(window.location.pathname);
+  }, []);
+
   return (
     // Nav Barr
     <div className="bg-dark">
