@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-projects/static/css/main.204e45b2.css",
-    "main.js": "/react-projects/static/js/main.46fbf76e.js",
+    "main.js": "/react-projects/static/js/main.651d249f.js",
     "static/media/astronomy-back.jpg": "/react-projects/static/media/astronomy-back.a4c09e217b6293a0e87d.jpg",
     "static/media/star-back.jpg": "/react-projects/static/media/star-back.b3153c2e1b47a1e9d49f.jpg",
     "static/media/background.jpg": "/react-projects/static/media/background.13bb4065dda259e0fd5e.jpg",
@@ -11,10 +11,10 @@
     "static/media/logo.svg": "/react-projects/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-projects/index.html",
     "main.204e45b2.css.map": "/react-projects/static/css/main.204e45b2.css.map",
-    "main.46fbf76e.js.map": "/react-projects/static/js/main.46fbf76e.js.map"
+    "main.651d249f.js.map": "/react-projects/static/js/main.651d249f.js.map"
   },
   "entrypoints": [
     "static/css/main.204e45b2.css",
-    "static/js/main.46fbf76e.js"
+    "static/js/main.651d249f.js"
   ]
 }
