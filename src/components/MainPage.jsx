@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
@@ -23,6 +23,11 @@ import { ImRocket } from "react-icons/im";
 import { AiFillLinkedin, AiOutlineMail, AiFillGithub } from "react-icons/ai";
 import { SiStyledcomponents, SiAdobecreativecloud } from "react-icons/si";
 import { Link } from "react-router-dom";
+import ReactGa from "react-ga";
+
+useEffect(() => {
+  ReactGa.preview(window.location.pathname);
+}, []);
 
 function MainPage() {
   return (
