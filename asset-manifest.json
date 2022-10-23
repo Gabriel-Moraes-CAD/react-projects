@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/react-projects/static/css/main.204e45b2.css",
-    "main.js": "/react-projects/static/js/main.651d249f.js",
+    "main.js": "/react-projects/static/js/main.4bd7eda6.js",
     "static/media/astronomy-back.jpg": "/react-projects/static/media/astronomy-back.a4c09e217b6293a0e87d.jpg",
     "static/media/star-back.jpg": "/react-projects/static/media/star-back.b3153c2e1b47a1e9d49f.jpg",
     "static/media/background.jpg": "/react-projects/static/media/background.13bb4065dda259e0fd5e.jpg",
     "static/media/details-background2.jpg": "/react-projects/static/media/details-background2.fced4c2b827352ce1d4d.jpg",
     "static/media/error-pic.jpg": "/react-projects/static/media/error-pic.8ad367b2f77493b1323b.jpg",
     "static/media/bugtracker.jpg": "/react-projects/static/media/bugtracker.fffdf7d6278d5316ffe5.jpg",
+    "static/media/go-qr-code.png": "/react-projects/static/media/go-qr-code.9c82e8a4aa661b17db41.png",
+    "static/media/background-card.jpeg": "/react-projects/static/media/background-card.dea16a5df52a81e2a63e.jpeg",
     "static/media/logo.svg": "/react-projects/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-projects/index.html",
     "main.204e45b2.css.map": "/react-projects/static/css/main.204e45b2.css.map",
-    "main.651d249f.js.map": "/react-projects/static/js/main.651d249f.js.map"
+    "main.4bd7eda6.js.map": "/react-projects/static/js/main.4bd7eda6.js.map"
   },
   "entrypoints": [
     "static/css/main.204e45b2.css",
-    "static/js/main.651d249f.js"
+    "static/js/main.4bd7eda6.js"
   ]
 }
