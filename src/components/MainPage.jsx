@@ -7,7 +7,8 @@ import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../images/logo.svg";
-import Rproject1 from "../images/background.jpg";
+import Rproject1 from "../images/background-card.jpeg";
+import Qrcode from "../images/go-qr-code.png";
 import bugtracker from "../images/bugtracker.jpg";
 import {
   TbBrandJavascript,
@@ -120,6 +121,13 @@ function MainPage() {
 
           <Col className="d-flex justify-content-center text-center">
             <h4>
+              <TbBrandReactNative color="#61dbfb" size="80px" />
+              <h4>Native</h4>
+            </h4>
+          </Col>
+
+          <Col className="d-flex justify-content-center text-center">
+            <h4>
               <TbBrandBootstrap color="#563d7c" size="80px" />
               <h4>Bootstrap</h4>
             </h4>
@@ -150,10 +158,11 @@ function MainPage() {
 
       {/* Card with Project #1 */}
 
-      <Container className="p-5 mt-5 border-opacity-10 border-bottom border-light ">
+      <Container className="p-5 mt-5 ">
         <Row className="d-flex justify-content-center">
           <Col lg md="12" className="text-light ">
-            <h1>Space Explorer Project </h1>
+            <h1 className="mb-5">Space Explorer Project </h1>
+            <h2>Web Version</h2>
             <p>
               This project was built based on 2 different NASA APIs. In the
               first section of the project's page, you'll have the ability to
@@ -196,18 +205,43 @@ function MainPage() {
               This project is not affiliated with NASA. All images displayed on
               this project are copyrighted by NASA.
             </p>
+            <h2 className="mt-5">Mobile Version</h2>
+            <p>
+              {" "}
+              I build a smaller version of the Space Explorer Web using React
+              Native as a mobile version of this project. Because the mobile
+              environment is limited in space I decided to only include the APOD
+              API capabilities where the user can search for images using a date
+              range, similarly to the Space Explorer Web version.
+            </p>
+            <p>
+              You can see the mobile version by cloning the repository{" "}
+              <a
+                className="text-light fw-bold text-decoration-underline"
+                href="https://github.com/Gabriel-Moraes-CAD/Space-Explorer-React-Native.git"
+                target="_blank"
+              >
+                HERE
+              </a>{" "}
+              or by using EXPO. If you have EXPO GO installed in your device,
+              you can scan the QR code below and interact with the app.
+            </p>
           </Col>
+        </Row>
+      </Container>
 
+      <Container className="p-5 border-opacity-10 border-bottom border-light ">
+        <Row className="d-flex justify-content-center g-5">
           <Col
             lg
-            md="12"
+            md="6"
             className="d-flex justify-content-center align-items-center"
           >
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={Rproject1} />
               <Card.Body className="text-light bg-dark bg-opacity-75">
                 <Card.Title>
-                  <ImRocket sixe="20px" /> Space Explorer{" "}
+                  <ImRocket sixe="20px" /> Space Explorer Web
                 </Card.Title>
                 <Card.Text>
                   Search for astronomy pictures based on a start/end date (APOD
@@ -217,6 +251,34 @@ function MainPage() {
                 <Link to={"/spacepromain/"}>
                   <Button variant="light">Let's take a look</Button>
                 </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col
+            lg
+            md="6"
+            className="d-flex justify-content-center align-items-center"
+          >
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={Qrcode} />
+              <Card.Body className="text-light bg-dark bg-opacity-75">
+                <Card.Title>
+                  <ImRocket sixe="20px" /> Space Explorer Mobile
+                </Card.Title>
+                <Card.Text>
+                  Please scan the QR code above to see my app using EXPO. You
+                  can also clone my GitHub repository. The app is available for
+                  IOS and Android users.
+                </Card.Text>
+
+                <Button
+                  href="https://expo.dev/@gabe_to?tab=projects"
+                  target="_blank"
+                  variant="light"
+                >
+                  EXPO Profile
+                </Button>
               </Card.Body>
             </Card>
           </Col>

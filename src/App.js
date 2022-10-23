@@ -1,6 +1,6 @@
-import {HashRouter} from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Pages from "./pages/Pages";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -8,8 +8,7 @@ function App() {
     <div className="App">
       <HashRouter>
         <ScrollToTop />
-        <Pages/>
-    
+        <Pages />
       </HashRouter>
     </div>
   );
