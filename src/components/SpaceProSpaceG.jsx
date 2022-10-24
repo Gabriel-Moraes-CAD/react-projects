@@ -7,13 +7,15 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { AiOutlineCopyright } from "react-icons/ai";
 import imageError from "../images/error-pic.jpg";
+import PopUp from "./PopUp";
 
 function SpaceProSpaceG() {
   // Space Image Statee
   const [data, setData] = useState([[]]);
-  const [startDate, setStartDate] = useState("2022-03-02");
-  const [endDate, setEndDate] = useState("2022-03-11");
+  const [startDate, setStartDate] = useState();
+  const [endDate, setEndDate] = useState();
   const [renderItems, setRenderItems] = useState(false);
+  const [buttonPopUp, setButtonPopUp] = useState(false);
 
   // API call Space Gallery
   const searchDateRange = async () => {
@@ -26,8 +28,18 @@ function SpaceProSpaceG() {
     console.log(data);
   };
 
-  //  Triggered by search button - conditional rendering + API call
-  const trigger = () => {
+  // Date input validation - error handling
+  const submitSearch = () => {
+    const date_regex = /^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/;
+    if (!date_regex.test(startDate)) {
+      setButtonPopUp(true);
+      return;
+    }
+
+    if (!date_regex.test(endDate)) {
+      setButtonPopUp(true);
+      return;
+    }
     searchDateRange();
   };
 
@@ -84,10 +96,18 @@ function SpaceProSpaceG() {
                 <Button
                   type="button"
                   className="btn btn-light"
-                  onClick={trigger}
+                  onClick={submitSearch}
                 >
                   Search
                 </Button>
+
+                {/* Popup message validation error */}
+                <PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp}>
+                  <h3>Oopss!</h3>
+                  <p>
+                    Start Date and End date must follow the YYYY-MM-DD format
+                  </p>
+                </PopUp>
               </Col>
             </Row>
 

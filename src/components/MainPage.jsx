@@ -182,13 +182,14 @@ function MainPage() {
               by clicking on the picture of your choice. Note that this project
               uses a "DEMO_KEY" so the number of API calls is very limited,
               about 30 calls per hour to a maximum of 50 calls per day per IP
-              address. If you're having trouble having your selected dates
-              render, this could be a reason.
+              address. If you're having trouble rendering your selected dates,
+              this could be a reason.
             </p>
             <p>
               This project outlines my skills using APIs, mapping and filtering
-              techniques, conditional rendering, useState, useEffect, Params,
-              React Router, CSS Bootstrap framework, and use of local storage.
+              techniques, conditional rendering,form validation, useState,
+              useEffect, Params, React Router, CSS Bootstrap framework, and use
+              of local storage.
             </p>
             <p>
               If you wish to see the code for this project, please{" "}
@@ -197,7 +198,7 @@ function MainPage() {
                 href="https://github.com/Gabriel-Moraes-CAD/react-projects.git"
                 target="_blank"
               >
-                HERE
+                CLICK HERE
               </a>
               .
             </p>
@@ -208,11 +209,17 @@ function MainPage() {
             <h2 className="mt-5">Mobile Version</h2>
             <p>
               {" "}
-              I build a smaller version of the Space Explorer Web using React
+              I built a smaller version of the Space Explorer Web using React
               Native as a mobile version of this project. Because the mobile
               environment is limited in space I decided to only include the APOD
               API capabilities where the user can search for images using a date
               range, similarly to the Space Explorer Web version.
+            </p>
+            <p>
+              The mobile version project outlines my skills using APIs, mapping
+              and filtering techniques, conditional rendering, form validation,
+              alerts, useState, useEffect, Params, React Native Navigation
+              (Stack Navigation), and CSS animation.
             </p>
             <p>
               You can see the mobile version by cloning the repository{" "}
@@ -223,7 +230,7 @@ function MainPage() {
               >
                 HERE
               </a>{" "}
-              or by using EXPO. If you have EXPO GO installed in your device,
+              or by using EXPO. If you have EXPO GO installed on your device,
               you can scan the QR code below and interact with the app.
             </p>
           </Col>
@@ -245,7 +252,7 @@ function MainPage() {
                 </Card.Title>
                 <Card.Text>
                   Search for astronomy pictures based on a start/end date (APOD
-                  API) and beautiful space related pictures from the NASA Imager
+                  API) and beautiful space related pictures from the NASA Image
                   and Video Library API.
                 </Card.Text>
                 <Link to={"/spacepromain/"}>
