@@ -31,7 +31,7 @@ function MainPage() {
     <div className="bg-dark">
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Gabriel Moraes</Navbar.Brand>
+          <Navbar.Brand href="#">Gabriel Moraes</Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link href="https://gabriel-moraes-cad.github.io/Gabriel-Moraes/html/index.html">
               Home
@@ -280,11 +280,11 @@ function MainPage() {
                 </Card.Text>
 
                 <Button
-                  href="https://expo.dev/@gabe_to?tab=projects"
+                  href="https://github.com/Gabriel-Moraes-CAD/Space-Explorer-React-Native.git"
                   target="_blank"
                   variant="light"
                 >
-                  EXPO Profile
+                  GitHub Repository
                 </Button>
               </Card.Body>
             </Card>
