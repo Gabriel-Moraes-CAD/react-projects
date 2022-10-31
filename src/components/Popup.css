@@ -22,3 +22,21 @@
     top: 16px;
     right: 16px;
 }
+
+#react_logo {
+    
+    animation: reactR 7s linear infinite;
+    animation-delay: 5s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes reactR {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
