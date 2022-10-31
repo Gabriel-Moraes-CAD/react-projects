@@ -26,7 +26,6 @@
 #react_logo {
     
     animation: reactR 7s linear infinite;
-    animation-delay: 5s;
     transform-origin: center;
     transform-box: fill-box;
 }
