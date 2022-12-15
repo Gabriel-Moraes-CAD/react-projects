@@ -17,6 +17,7 @@ import {
   TbBrandReactNative,
   TbBrandBootstrap,
   TbBrandTailwind,
+  TbBrandNextjs,
 } from "react-icons/tb";
 import { FaCanadianMapleLeaf, FaNodeJs, FaNpm } from "react-icons/fa";
 import { DiGit } from "react-icons/di";
@@ -218,7 +219,7 @@ function MainPage() {
 
           <Col className="d-flex justify-content-center text-center">
             <h4>
-              <SiNextdotjs color="#Fffff" size="80px" />
+              <TbBrandNextjs color="#Fffff" size="80px" />
               <h4>Next JS</h4>
             </h4>
           </Col>
