@@ -18,11 +18,17 @@ import {
   TbBrandBootstrap,
   TbBrandTailwind,
 } from "react-icons/tb";
-import { FaCanadianMapleLeaf } from "react-icons/fa";
+import { FaCanadianMapleLeaf, FaNodeJs, FaNpm } from "react-icons/fa";
 import { DiGit } from "react-icons/di";
 import { ImRocket } from "react-icons/im";
 import { AiFillLinkedin, AiOutlineMail, AiFillGithub } from "react-icons/ai";
-import { SiStyledcomponents, SiAdobecreativecloud } from "react-icons/si";
+import {
+  SiStyledcomponents,
+  SiAdobecreativecloud,
+  SiFirebase,
+  SiNextdotjs,
+} from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
 function MainPage() {
@@ -188,6 +194,41 @@ function MainPage() {
               <h4>AdobeCC</h4>
             </h4>
           </Col>
+
+          <Col className="d-flex justify-content-center text-center">
+            <h4>
+              <GrGraphQl color="#e535ab" size="80px" />
+              <h4>GraphQL</h4>
+            </h4>
+          </Col>
+
+          <Col className="d-flex justify-content-center text-center">
+            <h4>
+              <FaNodeJs color="#3c873a" size="80px" />
+              <h4>Node JS</h4>
+            </h4>
+          </Col>
+
+          <Col className="d-flex justify-content-center text-center">
+            <h4>
+              <SiFirebase color="#F6820D" size="80px" />
+              <h4>Firebase</h4>
+            </h4>
+          </Col>
+
+          <Col className="d-flex justify-content-center text-center">
+            <h4>
+              <SiNextdotjs color="#Fffff" size="80px" />
+              <h4>Next JS</h4>
+            </h4>
+          </Col>
+
+          <Col className="d-flex justify-content-center text-center">
+            <h4>
+              <FaNpm color="#CC3534" size="80px" />
+              <h4>NPM</h4>
+            </h4>
+          </Col>
         </Row>
       </Container>
 
@@ -339,7 +380,7 @@ function MainPage() {
             <Card style={{ width: "18rem" }} className="mb-4">
               <Card.Img variant="top" src={bugtracker} />
               <Card.Body className="text-light bg-dark bg-opacity-75">
-                <Card.Title>CRM / Bug Tracker</Card.Title>
+                <Card.Title>Headless CMS</Card.Title>
                 <Card.Text>Currently under development.</Card.Text>
                 <Button variant="light">Coming soon</Button>
               </Card.Body>
@@ -347,9 +388,10 @@ function MainPage() {
           </Col>
 
           <Col lg md="12" className="text-light">
-            <h1>CRM / Bug Tracker Project</h1>
+            <h1>Headless CMS with GraphQL + NextJS </h1>
             <p>
-              I'm currently developing a crm/bug tracker project. Stay tunned.
+              I'm currently developing a Headless CMS with GraphQL + NextJS
+              project. Stay tunned.
             </p>
           </Col>
         </Row>
@@ -431,7 +473,7 @@ function MainPage() {
                   <dd> - Space Explorer</dd>
                 </a>
                 <a href="#">
-                  <dd> - CRM Bug Tracker (coming soon)</dd>
+                  <dd> - Headless CMS</dd>
                 </a>
                 <dd> </dd>
               </dl>
